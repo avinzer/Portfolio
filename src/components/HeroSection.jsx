@@ -1,3 +1,4 @@
+import { ArrowDown } from "lucide-react"
 
 
 
@@ -28,6 +29,10 @@ export const HeroSection = () => {
                 <div className="pt-6 opacity-0 animate-fade-in-delay-6">
                     <a href="#projects" className="cosmic-button">View Projects</a>
                 </div>
+            </div>
+            <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
+                <span className="text-sm text-muted-foreground mb-2">Scroll</span>
+                <ArrowDown className="h-5 w-5 text-primary" />
             </div>
         </section>
     )
