@@ -11,11 +11,13 @@ const projects = [
     title: "Project Two",
     description: "Description for project two.",
     link: "https://example.com/project-two",
+    img: "https://moderen-music-player.vercel.app/Gamer.jpg",
   },
   {
     title: "Project Three",
     description: "Description for project three.",
     link: "https://example.com/project-three",
+    img: "https://moderen-music-player.vercel.app/Gamer.jpg",
   },
 ];
 
@@ -38,7 +40,7 @@ export const ProjectsSection = () => {
             >
               <div className="h-48 overflow-hidden">
                 <img
-                  src={project.link}
+                  src={project.img}
                   alt=""
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
