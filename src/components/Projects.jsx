@@ -4,7 +4,7 @@ const projects = [
     {
         title: "Project One",
         description: "Description for project one.",
-        link: "https://example.com/project-one"
+        link: "moderen-music-player.vercel.app"
     },
     {
         title: "Project Two",
